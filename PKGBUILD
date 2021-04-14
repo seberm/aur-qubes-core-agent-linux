@@ -11,7 +11,6 @@ pkgdesc="The Qubes core files for installation inside a Qubes VM."
 arch=("x86_64")
 url="https://github.com/QubesOS/qubes-core-agent-linux"
 license=('GPL')
-depends=('sh' 'qubes-vm-core' 'usbutils')
 groups=()
 makedepends=(gcc make pkg-config qubes-vm-utils qubes-libvchan qubes-db-vm qubes-vm-xen libx11 python python-setuptools lsb-release pandoc)
 validpgpkeys=('0AF64C3B1F1214B38C8C57861FA2DBE674387CC3'  # Otto Sabart
